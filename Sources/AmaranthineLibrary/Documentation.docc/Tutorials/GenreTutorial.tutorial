@@ -1,0 +1,21 @@
+@Tutorial(time: 5) {
+    @Intro(title: "Creating an instance of Genre.") {
+        We will look at the steps involved in creating an instance of Genre.
+    }
+    
+    @Section(title: "Create an instance of Genre") {
+        @ContentAndMedia {
+            We will look at the steps involved in creating an instance of Genre.
+            
+            @Image(source: genre.png, alt: "Genre")
+        }
+        
+        @Steps {
+            @Step {
+                Gather all the necessary data before hand. Simply declare a variable of type Genre.
+                
+                @Code(name: "GenreCodeFile.swift", file: GenreCodeFile.swift)
+            }
+        }
+    }
+}

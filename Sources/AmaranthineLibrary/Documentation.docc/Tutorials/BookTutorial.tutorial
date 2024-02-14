@@ -1,0 +1,84 @@
+@Tutorial(time: 10) {
+    @Intro(title: "Creating an instance of Book.") {
+        We will look at the steps involved in creating an instance of Book.
+    }
+    
+    @Section(title: "Create an Book object") {
+        @ContentAndMedia {
+            We will look at the steps involved in creating an instance of Book.
+            
+            @Image(source: book.png, alt: "Book")
+        }
+        
+        @Steps {
+            @Step {
+                Create the author object
+                
+                @Code(name: "BookCodeFile.swift", file: BookCodeFile.swift)
+            }
+            
+            @Step {
+                Create the variable that holds the genre.
+                
+                @Code(name: "BookCodeFile.swift", file: BookCodeFile-1.swift)
+            }
+            
+            @Step {
+                Create the variable that holds the book style.
+                
+                @Code(name: "BookCodeFile.swift", file: BookCodeFile-2.swift)
+            }
+            
+            @Step {
+                Gather additional book details.
+                
+                @Code(name: "BookCodeFile.swift", file: BookCodeFile-3.swift)
+            }
+            
+            @Step {
+                Create the variable that holds the book.
+                
+                @Code(name: "BookCodeFile.swift", file: BookCodeFile-4.swift)
+            }
+        }
+    }
+    
+    @Assessments {
+        @MultipleChoice {
+            
+            Which of the following types is not used while creating an instance of a `Book`?
+            
+            @Choice(isCorrect: false) {
+                `float`
+                
+                @Justification(reaction: "Try again!") {
+                    Have a look at the `Book` type to see what has been used.
+                }
+            }
+            
+            @Choice(isCorrect: false) {
+                `Data`
+                
+                @Justification(reaction: "Try again!") {
+                    Have a look at the `Book` type to see what has been used.
+                }
+            }
+            
+            @Choice(isCorrect: true) {
+                `Author`
+                
+                @Justification(reaction: "That's right!") {
+                    A `Book` has an `Author`.
+                }
+            }
+            
+            @Choice(isCorrect: false) {
+                `Bool`
+                
+                @Justification(reaction: "Try again!") {
+                    Have a look at the `Book` type to see what has been used.
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+@Tutorials(name: "Using the different types available") {
+    @Intro(title: "How to use the different types") {
+        In this tutorial we will look at creating and using the different types.
+        
+        @Image(source: library.png, alt: "Library")
+    }
+    
+    @Volume(name: "Creating types") {
+        
+        First we will look at how to create instances of the different types.
+        @Image(source: create.png, alt: "Create")
+        
+        @Chapter(name: "Author") {
+            In this chapter we look at how to create objects of type ``AmaranthineLibrary/Author``.
+            @Image(source: author.png, alt: "Author")
+            @TutorialReference(tutorial: "doc:AuthorTutorial")
+        }
+        
+        @Chapter(name: "Genre") {
+            In this chapter we look at how to create objects of type ``AmaranthineLibrary/Genre``.
+            @Image(source: genre.png, alt: "Genre")
+            @TutorialReference(tutorial: "doc:GenreTutorial")
+        }
+        
+        @Chapter(name: "Book") {
+            In this chapter we look at how to create objects of type ``AmaranthineLibrary/Book``.
+            @Image(source: book.png, alt: "Book")
+            @TutorialReference(tutorial: "doc:BookTutorial")
+        }
+        
+        @Chapter(name: "Library") {
+            In this chapter we look at how to create objects of type ``AmaranthineLibrary/Library``.
+            @Image(source: library.png, alt: "Library")
+            @TutorialReference(tutorial: "doc:LibraryTutorial")
+        }
+    }    
+    
+    @Volume(name: "Working with the library") {
+        Next we will look at how all the types work together as a part of the library.
+        
+        @Image(source: assemble.png, alt: "Assemble")
+        
+        @Chapter(name: "Working with the library") {
+            In this chapter we look at how to use the ``AmaranthineLibrary/Library`` object.
+            @Image(source: library.png, alt: "Library")
+            @TutorialReference(tutorial: "doc:UsingTheLibraryTutorial")
+        }
+    }
+    
+    @Resources {
+        Explore more resources for learning about the different features that we have used in Swift.
+
+        @Videos(destination: "https://www.youtube.com/channel/UC127UHd8V7bxPQYnd9QrN8w") {
+            To view various blog articles and videos.
+
+            - [My Blog](https://www.arunpatwardhan.com/)
+        }
+        
+        @SampleCode(destination: "https://github.com/AmaranthineTech") {
+            Download and explore sample code projects.
+
+            - [Sample code](https://github.com/AmaranthineTech/)
+        }
+        
+        @Documentation(destination: "https://amaranthinerandomgenerators.github.io/documentation/amaranthinerandomgenerators/") {
+            Browse and search documentation for ``AmaranthineLibrary`` project online.
+
+            - [AmaranthineLibrary](https://amaranthinelibrary.github.io/documentation/amaranthinelibrary/)
+        }
+    }
+}

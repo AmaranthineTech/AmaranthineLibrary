@@ -1,0 +1,27 @@
+@Tutorial(time: 15) {
+    @Intro(title: "Creating an instance of Library.") {
+        We will look at the steps involved in creating an instance of Library.
+    }
+    
+    @Section(title: "Create an Library object") {
+        @ContentAndMedia {
+            We will look at the steps involved in creating an instance of Library.
+            
+            @Image(source: library.png, alt: "Library")
+        }
+        
+        @Steps {
+            @Step {
+                Follow the steps to create a book. Create a few extra books.
+                
+                @Code(name: "LibraryCodeFile.swift", file: LibraryCodeFile.swift)
+            }
+            
+            @Step {
+                Create the variable that holds the library.
+                
+                @Code(name: "LibraryCodeFile.swift", file: LibraryCodeFile-1.swift)
+            }
+        }
+    }
+}

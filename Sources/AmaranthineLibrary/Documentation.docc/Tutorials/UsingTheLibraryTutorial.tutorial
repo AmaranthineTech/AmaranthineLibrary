@@ -1,0 +1,26 @@
+@Tutorial(time: 5) {
+    @Intro(title: "Working with the library.") {
+        We will look at some of the different actions we can perform with the library.
+    }
+    
+    @Section(title: "Adding books to the library.") {
+        @ContentAndMedia {
+            We will look at the steps involved in creating an instance of Library.
+            
+            @Image(source: library.png, alt: "Library")
+        }
+        @Steps {
+            @Step {
+                Create a book and add it to the library using the `acquireNewBook` method.
+                
+                @Code(name: "UsingLibraryCodeFile.swift", file: UsingLibraryCodeFile.swift)
+            }
+            
+            @Step {
+                Add an existing book to the library using the `receiveBook` method.
+                
+                @Code(name: "UsingLibraryCodeFile.swift", file: UsingLibraryCodeFile.swift)
+            }
+        }
+    }
+}

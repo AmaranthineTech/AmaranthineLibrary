@@ -1,0 +1,27 @@
+@Tutorial(time: 5) {
+    @Intro(title: "Creating an instance of Author.") {
+        We will look at the steps involved in creating an author.
+    }
+    
+    @Section(title: "Create an author object") {
+        @ContentAndMedia {
+            We will look at the steps involved in creating an author.
+            
+            @Image(source: author.png, alt: "Author")
+        }
+        
+        @Steps {
+            @Step {
+                Gather all the necessary data before hand.
+                
+                @Code(name: "AuthorCodeFile.swift", file: AuthorCodeFile.swift)
+            }
+            
+            @Step {
+                Create the object using the data.
+                
+                @Code(name: "AuthorCodeFile.swift", file: AuthorCodeFile-1.swift)
+            }
+        }
+    }
+}
